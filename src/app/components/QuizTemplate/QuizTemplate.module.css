@@ -1,0 +1,18 @@
+.quizTemplate{
+    display: flex;
+    justify-content: center;
+    /* min-height: 80vh; */
+}
+
+.quizTile{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.quizTile h2{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

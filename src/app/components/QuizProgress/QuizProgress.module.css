@@ -1,0 +1,15 @@
+.activeQuizProgress{
+}
+
+.progressSection{
+    width: 30%;
+    height: 30%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.quickAccessSection{
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}

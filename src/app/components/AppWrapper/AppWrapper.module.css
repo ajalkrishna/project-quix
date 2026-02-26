@@ -1,0 +1,23 @@
+.appWrapperContainer {
+    min-height: 100vh;
+    border: 1px solid black;
+    position: relative;
+}
+
+.header {
+    min-height: 10vh;
+    border: 1px solid black;
+}
+
+.footer {
+    min-height: 10vh;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.quizSection {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
