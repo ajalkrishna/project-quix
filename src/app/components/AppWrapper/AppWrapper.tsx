@@ -3,12 +3,13 @@ import QuizProgress from "../QuizProgress/QuizProgress";
 import { QuizTemplate } from "../QuizTemplate/QuizTemplate";
 import s from './AppWrapper.module.css';
 import { QUESTIONS } from "../../../mocks/questions";
+import Header from "../Header/Header";
 
 export function AppWrapper() {
     const [listOfQuestions] = useState(QUESTIONS);
     return (
         <div className={s.appWrapperContainer}>
-            <div className={s.header}>Here comes the Header - {listOfQuestions.length}</div>
+            <Header/>
             <div className={s.quizSection}>
                 <QuizTemplate question={listOfQuestions[0]} />
                 <QuizProgress totalNumberOfQuestions={listOfQuestions.length}/>
