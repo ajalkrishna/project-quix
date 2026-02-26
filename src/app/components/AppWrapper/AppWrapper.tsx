@@ -5,7 +5,7 @@ import s from './AppWrapper.module.css';
 import { QUESTIONS } from "../../../mocks/questions";
 
 export function AppWrapper() {
-    const [listOfQuestions, setListOfQuestions] = useState(QUESTIONS);
+    const [listOfQuestions] = useState(QUESTIONS);
     return (
         <div className={s.appWrapperContainer}>
             <div className={s.header}>Here comes the Header - {listOfQuestions.length}</div>

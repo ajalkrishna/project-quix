@@ -10,7 +10,7 @@ function QuizProgress({ totalNumberOfQuestions }) {
                 <hr />
             <div className={s.quickAccessSection}>
                 {
-                    Array.from({ length: totalNumberOfQuestions }, (value, index) => index + 1).map((each) => {
+                    Array.from({ length: totalNumberOfQuestions }, (_value, index) => index + 1).map((each) => {
                         return <QuickAccess questionNumber={each} />
                     })
                 }
